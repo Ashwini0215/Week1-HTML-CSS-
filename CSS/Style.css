@@ -1,8 +1,299 @@
-a {
-  color: red;
+
+/*  header{
+  background: orange;
+}*/
+
+.wrap {
+    display: block;
+
+    overflow: hidden;
+}
+header h2{
+background: url(../IMG/logo.png) no-repeat;
+text-indent: -9999px;
+width: 1800px;
+height: 250px;
+}
+
+nav li{
+
+  font-size: 15px;
+  text-align: center;
+  font-weight: bolder;
+
+  font-family: sans-serif;
+
+  color: blue;
+
+
+
+
+
+
+    display:inline;
+    margin-left: 0;
+    margin-right: 10px;
+  /*  background-color: gray;*/
+
+
+
+
+}
+
+
+.gadgets h3{
+background: url(../IMG/gadgets.jpg) no-repeat;
+text-indent: -9999px;
+width: 180px;
+height: 120px;
+}
+
+.accessories h3{
+background: url(../IMG/accessories.jpg) no-repeat;
+text-indent: -9999px;
+width: 180px;
+height: 120px;
+}
+.electronics h3{
+background: url(../IMG/electronics.jpg) no-repeat;
+text-indent: -9999px;
+width: 180px;
+height: 120px;
+}
+
+
+
+ul a {
   text-decoration: none;
+  color:#666;
 }
-h1
+
+
+ul a:hover{
+ text-decoration:underline;
+ color: red;
+  // when you swipe on text
+}
+
+
+
+.container_12{
+
+  background-image:url(../IMG/background2.jpg);
+/*  background-color: pink;*/
+
+}
+
+/**nav {
+
+  background-color: gray;
+}*/
+
+.main{
+
+  min-width: 1000px;
+  min-height: 100px;
+
+margin: 30px 0;
+
+}
+
+.primary{
+
+background: rgb(205, 255,255);
+position: relative;
+min-height: 100px;
+
+background-size:auto;
+
+
+left: 2px;
+
+top: 10px;
+bottom: 20
+}
+
+
+
+
+section{
+
+box-sizing: border-box;
+padding: 150px;
+
+}
+
+.hero-unit  {
+
+position: relative;
+right: 160px;
+
+  background-color:rgb(200,220,250);
+
+    /*background-image:url(../IMG/background2.jpg);*/
+    background-size:auto;
+    background-color: #EEEEEE;
+    height:700px;
+
+  }
+.hero-unit h1 {
+    color: blue;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 5,8,4,gray;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.hero-unit h2{
+  color: blue;
+  text-align: center;
+    font-size: 25px;
+
+
+}
+
+.hero-img{
+  max-width: 850px;
+
+  position: relative;
+
+
+  background-size:auto;
+
+
+  left: 200px;
+
+
+
+
+  background-color: gray;
+  image-orientation: center;
+  image-resolution: snap;
+  border: 10px;
+}
+
+.analytics_image{
+  position: relative;
+
+  background-color: #e3e3e3;
+  color: blue;
+
+font-family: sans-serif;
+    /*background-image:url(../IMG/background2.jpg);*/
+    background-size:auto;
+
+    height:200px;
+}
+
+
+
+
+.statistics_image{
+  font-family: sans-serif;
+  color: blue;
+
+  background-color:rgb(200,220,250);
+
+    /*background-image:url(../IMG/background2.jpg);*/
+    background-size:auto;
+
+    height:200px;
+}
+
+
+
+.footer {
+
+
+  background: rgb(205, 255,255);
+  position: relative;
+  min-height: 100px;
+
+  background-size:auto;
+
+
+  right:10px;
+
+  min-width: 1300px;
+height: 100px;
+position: relative;;
+margin: auto;
+background: #e3e3e3;
+
+background-color: #2b2935;
+background-size:auto;
+
+width: 100%;
+margin-left: inherit;
+
+  color: #86848c;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-size: .72222rem;
+    line-height:-1;
+
+
+
+}
+
+.footer-bottom-copyright p
 {
-  font-family: helvetica,Arial,sans-serif;
+
+font-size: 10px;
+font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+
+
+
 }
+
+.toys h3{
+background: url(../IMG/toys.jpg) no-repeat;
+text-indent: -9999px;
+width: 180px;
+height: 120px;
+}
+
+.watches h3{
+  background: url(../IMG/watches.jpg) no-repeat;
+  text-indent: -9999px;
+  width: 180px;
+  height: 120px;
+}
+
+.clothes h3{
+  background: url(../IMG/clothes.jpg) no-repeat;
+  text-indent: -9999px;
+  width: 180px;
+  height: 120px;
+}
+
+.cosmetics h3{
+background: url(../IMG/cosmetics.jpg) no-repeat;
+text-indent: -9999px;
+width: 180px;
+height: 120px;
+}
+
+.baby h3{
+  background: url(../IMG/baby.jpg) no-repeat;
+  text-indent: -9999px;
+  width: 180px;
+  height: 120px;
+}
+
+.footwear h3{
+  background: url(../IMG/footwear.jpg) no-repeat;
+  text-indent: -9999px;
+  width: 180px;
+  height: 120px;
+}
+
+
+
+
+/*cart{
+  display: block;
+  min-width: 1300px;
+  overflow: hidden;
+
+}*/
